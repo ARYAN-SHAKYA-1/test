@@ -1,14 +1,16 @@
 nav {
   background-color: black;
+  display: flex;
+  display: default;
+  justify-content: flex-end;
 }
 .nav_bar_frame {
   height: 50px;
-  width: 400px;
+  width: auto;
   padding: 15px;
   border: 1px solid black;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
 .link {
   text-decoration: none;
@@ -20,9 +22,9 @@ nav {
 }
 .button_frame {
   height: 50px;
-  width: 250px;
+  width: auto;
   padding: 15px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homeS</title>
+    <title>home</title>
     <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/sign_in.css">
   </head>
   <body>
     <nav>
@@ -17,11 +18,13 @@
           </div>
           <div class="button_frame">
             <div class="signin_button">
-              <button class="btn">
-                <a class="link" href="sign_in.php" class="button_link"
-                  ><span class="link_text">Sign_In</span></a
+              <label for="btn">
+                <button class="btn">
+               <a class="link" href="sign_in.php" class="button_link"
+                  ><span class="link_text">Sign In</span></a
                 >
-              </button>
+                </button> 
+             </label>
             </div>
           </div>
       </div>
