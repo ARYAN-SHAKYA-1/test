@@ -17,9 +17,24 @@
 }
 
 .button_area {
+  height: 50px;
+  width: auto;
   margin: 10px 0px;
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
+}
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#btn_login {
+  padding-top: 58px;
+}
+.btn_submit {
+  width: auto;
+  height: 35px;
 }
 .form_text {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
