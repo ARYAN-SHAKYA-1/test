@@ -1,13 +1,17 @@
 nav {
   background-color: black;
+  background-image: url(../photo/bear-and-bull.png);
+  width: 1500px;
   display: flex;
   display: default;
   justify-content: flex-end;
 }
 .nav_bar_frame {
-  height: 50px;
-  width: auto;
+  height: auto;
+  background-color: black;
+  width: 235px;
   padding: 15px;
+  margin: 5px;
   border: 1px solid black;
   display: flex;
   align-items: center;
@@ -17,7 +21,7 @@ nav {
 }
 .link_text {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 27px;
+  font-size: 35px;
   color: white;
 }
 .button_frame {
