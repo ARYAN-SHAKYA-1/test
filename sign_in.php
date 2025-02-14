@@ -1,5 +1,5 @@
 <?php include  "html/nav.php"?>
-<section>
+<section class="sign_in_section">
   <div class="form_box">
     <form action="" method="post">
         <span class="heading"><b>Sign In</b></span>

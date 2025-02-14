@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/css/index.css"><?php include  "html/nav.php" ?>
+<?php include  "html/nav.php" ?>
 <section>
     this  is home
 </section>
