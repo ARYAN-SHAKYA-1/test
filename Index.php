@@ -1,5 +1,5 @@
 <?php include  "html/nav.php"?>
-<section>
+<section class="index_section">
     welcome to our website.
     
 </section>
