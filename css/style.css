@@ -1,7 +1,7 @@
 nav {
   background-color: black;
   background-image: url(../photo/bear-and-bull.png);
-  width: 1500px;
+  width: 100%;
   display: flex;
   display: default;
   justify-content: flex-end;

@@ -1,5 +1,18 @@
 .index_section {
   background-color: aqua;
-  height: 200px;
+  height: auto;
   margin-right: 5px;
+}
+main {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+.main_box {
+  margin: 5px;
+  border: 2px solid black;
+  height: 520px;
+  width: 550px;
+  justify-items: center;
+  background-color: white;
 }
