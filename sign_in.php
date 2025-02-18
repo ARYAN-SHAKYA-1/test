@@ -20,12 +20,12 @@
             <div class="password_area">
                 <span class="form_text">Password</span>
                 <div class="box">
-                    <input type="password" name="pass" id="pass" class="box_textbox" />
+                    <input type="password" name="pass" id="password" class="box_textbox" />
                 </div>
             </div>
         </div>
         <div class="button_area">
-          <input type="submit" value="submit" class="btn_submit" name="submit" onclick="is_valid()"/>
+          <input type="submit" value="Submit" class="btn_submit" name="submit" onclick="is_valid()"/>
         </div>
     </form>
   </div>
@@ -47,7 +47,7 @@
              </div>
         </div>
         <div class="button_area" id="btn_login">
-          <input type="submit" value="submit" class="btn_submit" name="submit" />
+          <input type="submit" value="Submit" class="btn_submit" name="submit" />
         </div>
       
     </form>
