@@ -48,3 +48,7 @@
   border-radius: 5px;
   background-color: whitesmoke;
 }
+.btn_submit {
+  height: auto;
+  width: 200px;
+}
