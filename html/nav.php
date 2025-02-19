@@ -12,7 +12,10 @@
   </head>
   <body>
     <nav>
-        <div class="nav_bar_frame">
+      <div class="nav_img">
+        <img src="photo\bear-and-bull.png" alt="">
+      </div>
+    <div class="nav_bar_frame">
           <div class="link_frame">
             <a class="link" href="home.php"
               ><span class="link_text">Home</span></a
@@ -29,5 +32,5 @@
              </label>
             </div>
           </div>
-      </div>
+        </div>
     </nav>
