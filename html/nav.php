@@ -13,7 +13,7 @@
   <body>
     <nav>
       <div class="nav_img">
-        <img src="photo\bear-and-bull.png" alt="">
+        <img id="img_logo" src="photo\bear-and-bull.png" alt="">
       </div>
     <div class="nav_bar_frame">
           <div class="link_frame">

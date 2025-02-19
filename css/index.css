@@ -1,5 +1,4 @@
 .index_section {
-  background-color: aqua;
   height: auto;
   margin-right: 5px;
 }
@@ -15,4 +14,10 @@ main {
   width: 550px;
   justify-items: center;
   background-color: white;
+}
+#box_one {
+  background-color: gold;
+}
+#box_two {
+  background-color: silver;
 }
