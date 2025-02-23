@@ -1,5 +1,5 @@
 <span class="heading"><b>Sign In</b></span>
-<form method="get">
+<form method="POST">
   <div class="form_area">
     <div class="name_area">
       <span class="form_text">Name</span>
@@ -31,8 +31,12 @@
   </div>
 </form>
  <?php 
- //include "connection.php"
-//if(isset[$_GET['submit']]){
-
-//}
+ include "connection.php";
+if(isset($_POST["submit"]))
+{
+  $name =$_POST['name'];
+  $email =$_POST['email'];
+  $pass =$_POST['pass'];
+ echo $name ,$email ,$pass;
+}
 ?> 
