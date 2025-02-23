@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/sign_in.css">
     <link rel="stylesheet" type="text/css"href="css/index.css">
+    <script src="ja/valid.js"></script>
+    <script src="ja/isvalid.js"></script>
   </head>
   <body>
     <nav>
@@ -24,7 +26,7 @@
           <div class="button_frame">
             <div class="signin_button">
               <label for="btn">
-                <button class="btn">
+                <button name="btn" class="btn">
                <a class="link" href="sign_in.php" class="button_link"
                   ><span class="link_text">Sign In</span></a
                 >
