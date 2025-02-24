@@ -12,8 +12,24 @@ main {
   border: 2px solid black;
   height: 520px;
   width: 550px;
-  justify-items: center;
   background-color: white;
+}
+.main_box_text {
+  height: auto;
+  width: 100%;
+  justify-items: center;
+}
+.box_current_value {
+  background-color: white;
+  border: 2px solid black;
+  width: 20%;
+}
+.inside_box {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  width: 100%;
+  justify-content: space-between;
 }
 #box_one {
   background-color: gold;
