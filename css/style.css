@@ -1,13 +1,17 @@
 nav {
   background-color: black;
+  /* background-image: url(photo/nav.jpg); */
   width: 100%;
+  height: 50px;
   display: flex;
   display: default;
-  column-gap: 65%;
+  column-gap: 64%;
 }
-#nav_img {
-  height: 150px;
+#img_logo {
+  height: 100%;
+  width: auto;
 }
+
 .nav_bar_frame {
   height: auto;
   background-color: black;
