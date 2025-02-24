@@ -15,7 +15,7 @@
   <body>
     <nav>
       <div class="nav_img">
-        <img id="img_logo" src="photo\nav.jpg" alt="">
+        <img id="img_logo" src="photo\nav.jpg"  alt="">
       </div>
     <div class="nav_bar_frame">
           <div class="link_frame">
