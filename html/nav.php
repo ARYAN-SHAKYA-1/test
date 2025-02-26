@@ -18,7 +18,7 @@
       </div>
     <div class="nav_bar_frame">
           <div class="link_frame">
-            <a class="link" href="home.php"
+            <a class="link" href="index.php"
               ><span class="link_text">Home</span></a
             >
           </div>

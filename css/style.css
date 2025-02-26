@@ -7,14 +7,12 @@ nav {
   column-gap: 45%;
 }
 #img_logo {
-  height: 100px;
+  height: 50px;
   width: auto;
-  margin-top: 12px;
-  margin-left: 10px;
 }
 
 .nav_bar_frame {
-  height: auto;
+  height: 50px;
   background-color: black;
   width: 235px;
   padding: 15px;
