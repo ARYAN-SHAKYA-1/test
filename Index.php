@@ -10,12 +10,12 @@
                 <div class="box_value">
                     <div class="box_text">
                         <!-- ajax -->
-                        <div class="box_current_value">
-                            170,300.23
+                        <div id="gold-value" class="box_current_value">
+                            <!-- 170,300.23 -->
                         </div>
                     </div>
                     <div class="index_reolad" >
-                        <input type="submit" value="reload" class="reload" name="submit" />
+                        <input onclick="priceg()" type="submit" value="reload" class="reload" name="submit" />
                     </div>
                 </div>
             </div>
@@ -30,12 +30,12 @@
                 <div class="box_value">
                     <div class="box_text">
                         <!-- ajax -->
-                        <div class="box_current_value">
-                          1,970.05
+                        <div id="silver-value" class="box_current_value">
+                          <!-- 1,970.05 -->
                         </div>
                     </div>
                     <div class="index_reolad" >
-                        <input type="submit" value="reload" class="reload" name="submit"  />
+                        <input onclick="prices()" type="submit" value="reload" class="reload" name="submit"  />
                      </div>
                 </div>
             </div>
