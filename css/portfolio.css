@@ -1,0 +1,12 @@
+.insert_data {
+  padding: 10px;
+}
+
+.bottom_half {
+  border: 1px solid black;
+  display: flex;
+}
+.table {
+  width: 1000px;
+  border: 1px solid black;
+}
