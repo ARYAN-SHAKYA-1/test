@@ -30,7 +30,6 @@ if(isset($_POST["l_submit"]))
 
   if($res->num_rows >0){
     $row= $res->fetch_assoc();
-    echo "e_".$l_pass."b_".$row['pass'];
     if(strcmp($row['pass'],$l_pass)===0){
         echo"hello ".$row['name'];
         header("location:portfolio.php");
