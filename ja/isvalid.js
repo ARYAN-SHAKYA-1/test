@@ -1,10 +1,7 @@
 is_it_valid = () => {
-  let name = document.getElementById("name").value;
-  let email = document.getElementById("email").value;
-  let pass = document.getElementById("password").value;
-  let i = 0;
-  let name_flag = 0;
-  let email_flag = 0;
+  let email = document.getElementById("l_email").value;
+  let pass = document.getElementById("l_pass").value;
+  let flag = 0;
 
   const rgx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!rgx.test(email)) {
@@ -13,6 +10,11 @@ is_it_valid = () => {
   }
   if (pass.length < 8) {
     alert("password is to short");
+    flag = 1;
   }
-  console.log(length(pass));
+  if (flag === 0) {
+    return true;
+  } else {
+    return false;
+  }
 };
