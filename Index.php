@@ -10,7 +10,7 @@
                 <div class="box_value">
                     <div class="box_text">
                         <!-- ajax -->
-                        <div class="box_current_value">
+                        <div id="gold-vlaue"class="box_current_value">
                             170,300.23
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                 <div class="box_value">
                     <div class="box_text">
                         <!-- ajax -->
-                        <div class="box_current_value">
+                        <div id="silver-vlaue"class="box_current_value">
                           1,970.05
                         </div>
                     </div>
