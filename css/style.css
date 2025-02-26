@@ -4,7 +4,7 @@ nav {
   height: auto;
   display: flex;
   display: default;
-  column-gap: 35%;
+  column-gap: 45%;
 }
 #img_logo {
   height: 100px;
@@ -44,4 +44,9 @@ nav {
 .btn {
   background-color: black;
   border: 0px;
+}
+.footer {
+  background-color: snow;
+  height: 50px;
+  width: auto;
 }
