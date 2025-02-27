@@ -1,24 +1,38 @@
 <?php include  "html/nav.php" ?>
 <?php include "connection.php"?>
-<section>
-  <div class="table">
-    <div class="column" id="column1" name="item_id">
-      <span> item_id </span>
+<link rel="stylesheet" href="css/portfolio.css" />
+<section class="sec_portfolio">
+  <div class="top_half">
+
+  <div class="insert_data">
+   <?php include "html/insert_data.php" ?>
+  </div>
+
+  </div>
+  <div class="bottom_half">
+    <div class="table">
+      <table border="1">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Cost Price</th>
+          <th>Current Price</th>
+          <th>profit/loss</th>
+        </tr>
+      </table>
     </div>
-    <div class="column" id="column2" name="item_name">
-      <span> item_name </span>
-    </div>
-    <div class="column" id="column3" name="item_qty">
-      <span> item_qty </span>
-    </div>
-    <div class="column" id="column4" name="item_initial_price">
-      <span> item_initial_price </span>
-    </div> 
-    <div class="column" id="column5" name="item_currnt_price">
-      <span> item_currnt_price </span>
-    </div>
-    <div class="column" id="column6" name="profit">
-      <span> profit </span>
+
+    <div class="update_area">
+      <span class="update_text">Want to change something?</span>
+      <form onsubmit="ja/update.js" method="post">
+        <div class="textbox">
+          <input type="text" name="update" id="update" class="textbox" />
+        </div>
+        <div class="button">
+          <input type="submit" value="submit" class="submit" id="submit" />
+        </div>
+      </form>
     </div>
   </div>
 </section>

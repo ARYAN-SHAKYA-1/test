@@ -1,5 +1,5 @@
 <span class="heading"><b>Sign In</b></span>
-<form method="POST">
+<form onsubmit="return is_valid()" method="POST">
   <div class="form_area">
     <div class="name_area">
       <span class="form_text">Name</span>
@@ -16,7 +16,7 @@
     <div class="password_area">
       <span class="form_text">Password</span>
       <div class="box">
-        <input type="password" name="pass" id="password" class="box_textbox" />
+        <input type="password" name="pass" id="pass" class="box_textbox" />
       </div>
     </div>
   </div>
@@ -25,18 +25,28 @@
       type="submit"
       value="Submit"
       class="btn_submit"
-      name="submit"
-      onclick="is_valid()"
+      name="s_submit"
     />
   </div>
 </form>
  <?php 
  include "connection.php";
-if(isset($_POST["submit"]))
+if(isset($_POST["s_submit"]))
 {
   $name =$_POST['name'];
   $email =$_POST['email'];
   $pass =$_POST['pass'];
- echo $name ,$email ,$pass;
+  
+ $check="select id from user where email= '$email';";
+
+ if(($conn->query($check))->num_rows >0){
+   echo "<script> alert('email already exist')</script>";
+ }else{
+  $sql="INSERT INTO user (name, email, pass) values ('$name','$email','$pass');";
+  if($conn->query($sql)=== TRUE){
+    header("location:portfolio.php");
+  }
+}
+$conn->close();
 }
 ?> 
