@@ -13,7 +13,7 @@
         $u_id=$row['id'];
         $sql="INSERT INTO ITEM(itm_name,itm_qty,itm_cp,user_id) values('$name','$qty','$cp','$u_id')";}
         if($conn->query($sql)=== TRUE){
-            header("loaction:portfolio.php");
+            header("location:portfolio.php");
         }
     }
 ?>
