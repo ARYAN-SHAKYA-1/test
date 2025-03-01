@@ -9,8 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/sign_in.css">
     <link rel="stylesheet" type="text/css"href="css/index.css">
-    <script src="ja/valid.js"></script>
-    <script src="ja/isvalid.js"></script>
+
   </head>
   <body>
     <nav>

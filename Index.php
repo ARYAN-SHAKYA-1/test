@@ -7,15 +7,19 @@
                 <h1>Gold</h1>
             </div>
             <div class="inside_box" id="box_part_one">
-                <div class="box_value">
-                    <div class="box_text">
+                <div id="gold-value" class="box_value">
+                    <div id="gold-value" class="box_text">
                         <!-- ajax -->
-                        <div class="box_current_value">
-                            170,300.23
+                        <div id="gold-value" class="box_current_value">
+                            <!-- 170,300.23 -->
+                        <div id="gold-vlaue"class="box_current_value">
+                            
                         </div>
                     </div>
                     <div class="index_reolad" >
-                        <input type="submit" value="reload" class="reload" name="submit" />
+                        <input onclick="priceg()" type="submit" value="reload" class="reload" name="submit" />
+                    <div class="button_area" id="btn_login">
+                        <input  onclick="getdata_g()"type="submit" value="reload" class="btn_submit" name="submit" />
                     </div>
                 </div>
             </div>
