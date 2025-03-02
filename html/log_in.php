@@ -3,13 +3,13 @@
     <div class="form_area">
         <div class="email_area">
             <span class="form_text">Email</span>
-            <div class="box">
+            <div >
                 <input type="text" name="l_email" id="l_email" class="box_textbox" />
             </div>
         </div>
         <div class="password_area">
             <span class="form_text">Password</span>
-             <div class="box">
+             <div >
                <input type="password" name="l_pass" id="l_pass" class="box_textbox" />
             </div>
         </div>
@@ -19,6 +19,9 @@
     </div>
 </form>
 <?php 
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
+}
 include "connection.php";
 if(isset($_POST["l_submit"]))
 {
@@ -31,10 +34,16 @@ if(isset($_POST["l_submit"]))
   if($res->num_rows >0){
     $row= $res->fetch_assoc();
     if(strcmp($row['pass'],$l_pass)===0){
-        echo"hello ".$row['name'];
+      $_SESSION['id']=$row['id'];
+        $_SESSION['name']=$row['name'];
+        echo $_SESSION['name'];
         header("location:portfolio.php");
+        exit();
      }
-  }else{
+  else{
+    echo"<script>alert('password incorrect')</script>";
+  }}
+  else{
     echo"<script>alert('email not found')</script>";
   }
  $conn->close();
