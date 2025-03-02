@@ -4,6 +4,7 @@
   <script src="ja/isvalid.js"></script>
   <script src="ja/ajax.js"></script>
   <script src="ja/item_valid.js"></script>
+  <script src="ja/update.js"></script>
 
   </body>
 </html>

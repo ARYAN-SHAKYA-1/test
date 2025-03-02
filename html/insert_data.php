@@ -25,7 +25,7 @@
     echo $_SESSION['name'];
     ?>
 </span>
-    <form action="" method="post">
+    <form onsubmit="return valid()" method="post">
       <div class="text_box">
         <span class="form_text" >name</span>
         <input type="text" name="name" id="item">
