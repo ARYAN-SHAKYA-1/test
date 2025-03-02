@@ -19,6 +19,7 @@
           echo  "<script>alert('User not logged in');</script>";
       }
     }
+    $conn->close();
 ?>
 <span class="heading_text">Insert what you have 
     <?php
