@@ -7,6 +7,9 @@
   display: flex;
 }
 .table {
-  width: 1000px;
+  width: 800px;
   border: 1px solid black;
+}
+.update_area {
+  display: flex;
 }

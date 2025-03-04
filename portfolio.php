@@ -26,11 +26,15 @@
       </table>
     </div>
     </div>
-
-    <div class="update_area">
+    
+    <div class="update">
+    <span class="update_text">Want to change something?</span>
+      <div class="update_area">
       <?php
-      include "html/update.php"
+      include "html/update.php";
+      include "html/delete.php";
       ?>
+      </div>
     </div>
   </div>
 </section>
