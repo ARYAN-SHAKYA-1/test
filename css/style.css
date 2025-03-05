@@ -4,29 +4,32 @@ nav {
   height: auto;
   display: flex;
   display: default;
-  column-gap: 64%;
+  column-gap: 2%;
+  align-items: center;
 }
 #img_logo {
-  height: 50px;
-  width: auto;
+  height: 140px;
+  width: 1070px;
 }
 
 .nav_bar_frame {
   height: 50px;
   background-color: black;
-  width: 235px;
+  width: 335px;
   padding: 15px;
   margin: 5px;
   border: 1px solid black;
   display: flex;
   align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .link {
   text-decoration: none;
 }
 .link_text {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 35px;
+  font-size: 45px;
   color: white;
 }
 .button_frame {
