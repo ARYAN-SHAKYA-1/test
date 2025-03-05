@@ -25,7 +25,7 @@
           <div class="button_frame">
             <div class="signin_button">
               <label for="btn">
-                <button name="btn" class="btn">
+                <button name="btn" class="btn_nav">
                <a class="link" href="sign_in.php" class="button_link"
                   ><span class="link_text">Sign In</span></a
                 >
