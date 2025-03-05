@@ -11,10 +11,10 @@
             </div>
             <div class="ajax">
                 <div class="price_area">
-                    <span class="text" id="gold-value"></span>
+                    <span class="text_price" id="gold-value"></span>
                 </div>
                 <div class="button_index">
-                    <button onclick="priceg()">Reload</button>
+                    <button id="btn"onclick="priceg()">Reload</button>
                 </div>
             </div>
         </div>
@@ -29,10 +29,10 @@
             </div>
             <div class="ajax">
                 <div class="price_area">
-                    <span class="text" id="silver-value"></span>
+                    <span class="text_price" id="silver-value"></span>
                 </div>
                 <div class="button_index">
-                    <button onclick="prices()">Reload</button>
+                    <button id="btn"onclick="prices()">Reload</button>
                 </div>
             </div>
         </div>
