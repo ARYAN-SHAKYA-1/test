@@ -1,4 +1,4 @@
 -- use this to create table before using
-create table login (id int not null  AUTO_INCREMENT primary key, name varchar(100) not null, email varchar(100) not null,password varchar(100) not null);
+create table user (id int not null  AUTO_INCREMENT primary key, name varchar(200) not null, PAN_NO varchar(200) NOT NULL ,email varchar(200) not null, pass varchar(200) not null);
 
-create table items( item_id int not null primary key, quantity int , id int FOREIGN KEY REFERENCE LOGIN(id));
+create table item( itm_ID int not null primary key,itm_name varchar(200), itm_qty int not null ,itm_cp int not null , user_id int FOREIGN KEY REFERENCE user(id));

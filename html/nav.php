@@ -12,26 +12,14 @@
 
   </head>
   <body>
-    <nav>
-      <div class="nav_img">
-        <img id="img_logo" src="photo\nav.jpg"  alt="">
-      </div>
-    <div class="nav_bar_frame">
-          <div class="link_frame">
-            <a class="link" href="index.php"
-              ><span class="link_text">Home</span></a
-            >
-          </div>
-          <div class="button_frame">
-            <div class="signin_button">
-              <label for="btn">
-                <button name="btn" class="btn_nav">
-               <a class="link" href="sign_in.php" class="button_link"
-                  ><span class="link_text">Sign In</span></a
-                >
-                </button> 
-             </label>
-            </div>
-          </div>
-        </div>
-    </nav>
+  <nav>
+  <div class="nav_img">
+    <img id="img_logo" src="photo\nav.jpg" alt="" />
+  </div>
+  <div class="nav_bar_frame">
+    <div class="link_frame">
+      <a class="link" href="index.php"><span class="link_text">Home</span></a>
+    </div>
+    <?php include "button_frame.php"?>
+  </div>
+</nav>
