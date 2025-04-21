@@ -1,52 +1,41 @@
 <?php include  "html/nav.php"?>
-<section class="index_section">
-    <main>
+<section>
+    <div class="main_box">
 
-        <div class="main_box" id="box_one">
-            <div class="main_box_text">
-                <h1>Gold</h1>
+        <div  class="box "id="box1">
+            <div class="box1_text">
+                <span class="text">GOLD</span>
             </div>
-            <div class="inside_box" id="box_part_one">
-                <div id="gold-value" class="box_value">
-                    <div id="gold-value" class="box_text">
-                        <!-- ajax -->
-                        <div id="gold-value" class="box_current_value">
-                            <!-- 170,300.23 -->
-                        <div id="gold-vlaue"class="box_current_value">
-                            
-                        </div>
-                    </div>
-                    <div class="index_reolad" >
-                        <input onclick="priceg()" type="submit" value="reload" class="reload" name="submit" />
-                    <div class="button_area" id="btn_login">
-                        <input  onclick="getdata_g()"type="submit" value="reload" class="btn_submit" name="submit" />
-                    </div>
+            <div class="photo_area">
+                <img class="img" src="photo/gold_photo.jpg" alt="Gold_photo">
+            </div>
+            <div class="ajax">
+                <div class="price_area">
+                    <span class="text_price" id="gold-value"></span>
+                </div>
+                <div class="button_index">
+                    <button id="btn"onclick="priceg()">Reload</button>
                 </div>
             </div>
         </div>
 
 
-        <div class="main_box" id="box_two">
-            <div class="main_box_text">
-                <h1>Silver</h1>
+        <div class="box" id="box2">
+            <div class="box2_text">
+                <span class="text">SILVER</span>
             </div>
-            <div class="inside_box" id="box_part_two">
-                <div class="box_value">
-                    <div class="box_text">
-                        <!-- ajax -->
-                        <div class="box_current_value">
-                          1,970.05
-                        </div>
-                    </div>
-                    <div class="index_reolad" >
-                        <input type="submit" value="reload" class="reload" name="submit"  />
-                     </div>
+            <div class="photo_area">
+                <img class="img" src="photo/silver_photo.jpg" alt="Gold_photo">
+            </div>
+            <div class="ajax">
+                <div class="price_area">
+                    <span class="text_price" id="silver-value"></span>
+                </div>
+                <div class="button_index">
+                    <button id="btn"onclick="prices()">Reload</button>
                 </div>
             </div>
         </div>
-
-
-    </main>
-    
+    </div>
 </section>
 <?php include "html/footer.php"?>

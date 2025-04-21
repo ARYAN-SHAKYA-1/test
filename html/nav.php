@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>home</title>
+    <title>Mygold.com</title>
     <link rel="shortcut icon" href="photo\bear-and-bull.png" type="image/x-icon">
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -25,7 +25,7 @@
           <div class="button_frame">
             <div class="signin_button">
               <label for="btn">
-                <button name="btn" class="btn">
+                <button name="btn" class="btn_nav">
                <a class="link" href="sign_in.php" class="button_link"
                   ><span class="link_text">Sign In</span></a
                 >

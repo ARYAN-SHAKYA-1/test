@@ -3,19 +3,19 @@
   <div class="form_area">
     <div class="name_area">
       <span class="form_text">Name</span>
-      <div class="box">
+      <div >
         <input type="text" name="name" id="name" class="box_textbox" />
       </div>
     </div>
     <div class="email_area">
       <span class="form_text">Email</span>
-      <div class="box">
+      <div >
         <input type="text" name="email" id="email" class="box_textbox" />
       </div>
     </div>
     <div class="password_area">
       <span class="form_text">Password</span>
-      <div class="box">
+      <div >
         <input type="password" name="pass" id="pass" class="box_textbox" />
       </div>
     </div>
@@ -30,13 +30,13 @@
   </div>
 </form>
  <?php 
+ session_start();
  include "connection.php";
 if(isset($_POST["s_submit"]))
 {
   $name =$_POST['name'];
   $email =$_POST['email'];
   $pass =$_POST['pass'];
-  
  $check="select id from user where email= '$email';";
 
  if(($conn->query($check))->num_rows >0){
@@ -44,7 +44,8 @@ if(isset($_POST["s_submit"]))
  }else{
   $sql="INSERT INTO user (name, email, pass) values ('$name','$email','$pass');";
   if($conn->query($sql)=== TRUE){
-    header("location:portfolio.php");
+    $SESSION['name']=$name;
+    header("location:sign_in.php");
   }
 }
 $conn->close();
