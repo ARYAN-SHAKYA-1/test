@@ -13,14 +13,21 @@
 <?php
 include "connection.php";
 if(isset($_POST['delete'])){
-    
-    $id=$_POST['id'];
+  $check3 = "SELECT user_id FROM item WHERE user_id = '" . $_SESSION['id'] . "'";
+  $res=$conn->query($check3);
+    if($row->num_row>0){
+      echo "<script>alert('user id doesnot match')</script>";
+    }else{
 
-    $sql="DELETE FROM item where itm_id=$id";
-    if($conn-> query($sql)=== TRUE){
-        header("location:portfolio.php");
-   }else{
+    
+     $id=$_POST['id'];
+
+     $sql="DELETE FROM item where itm_id=$id";
+     if($conn-> query($sql)=== TRUE){
+         header("location:portfolio.php");
+    }else{
        echo  "<script>alert('failed to delete updated')</script>";
+    }
    }
   }
 ?>

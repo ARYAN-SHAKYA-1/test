@@ -1,5 +1,5 @@
 <span class="heading"><b>Sign In</b></span>
-<form onsubmit="return is_valid()" method="POST">
+<form onsubmit="return isvalid()" method="POST">
   <div class="form_area">
     <div class="name_area">
       <span class="form_text">Name</span>
@@ -41,7 +41,7 @@
 if(isset($_POST["s_submit"]))
 {
   $name =$_POST['name'];
-  $pan_no=$post['pan_no'];
+  $pan_no=$_POST['pan_no'];
   $email =$_POST['email'];
   $pass =$_POST['pass'];
  $check1="select id from user where email= '$email';";
